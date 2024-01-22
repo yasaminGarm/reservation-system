@@ -1,0 +1,231 @@
+﻿@model BeanSceneWebApp.Areas.Administration.Models.Sitting.Create
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+@*<h4>Sitting Creation</h4>*@
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-warning"
+                      style="font-size: 15px;"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Capacity" class="control-label"></label>
+                <input asp-for="Capacity" class="form-control" min="1" max="300"/>
+                <span asp-validation-for="Capacity" class="text-warning"
+                      style="font-size: 15px;"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Start Date Time</label>
+                <input asp-for="StartDateTime" class="form-control" />
+                <span asp-validation-for="StartDateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label"> End Date Time</label>
+                <input asp-for="EndDateTime" class="form-control" />
+                <span asp-validation-for="EndDateTime" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">Increment Duration in Minute</label>
+                <input asp-for="IncrementDuration" class="form-control" min="15" max="120" step="5"/>
+                <span asp-validation-for="IncrementDuration" class="text-warning"
+                      style="font-size: 15px;"></span>
+            </div>
+
+
+
+
+            <div class="form-group">
+                <label class="control-label">Restuarant Name </label>
+                <select asp-for="ResturantId" class ="form-control" asp-items="ViewBag.ResturantId"></select>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Closed" /> @Html.DisplayNameFor(model => model.Closed)
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="control-label">SittingType </label>
+                <select asp-for="SittingTypeId" class ="form-control" asp-items="ViewBag.SittingTypeId"></select>
+            </div>
+
+
+      
+           
+
+            <div class="form-group ">
+                <label class="control-label"> Notice in minute</label>
+                <input asp-for="Notice" class="form-control" />
+                <span asp-validation-for="Notice" class="text-danger"></span>
+            </div>
+
+
+
+        
+
+
+            <div class="form-group mt-3 mb-3">
+                <label asp-for="Repeat" class="control-label"></label>
+                <select name="Repeat" id="repeat-ddl" class="form-control">
+                    <option value="NEVER">Never</option>
+                    <option value="DAILY">Daily</option>
+                    <option value="WEEKLY">Weekly</option>
+                </select>
+            </div>
+
+            <div id="repeat-area-week-days">
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Monday" /> @Html.DisplayNameFor(model => model.Monday)
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Tuesday" /> @Html.DisplayNameFor(model => model.Tuesday)
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Wednesday" /> @Html.DisplayNameFor(model => model.Wednesday)
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Thursday" /> @Html.DisplayNameFor(model => model.Thursday)
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Friday" /> @Html.DisplayNameFor(model => model.Friday)
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Saturday" /> @Html.DisplayNameFor(model => model.Saturday)
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Sunday" /> @Html.DisplayNameFor(model => model.Sunday)
+                    </label>
+                </div>
+               
+            </div>
+
+            <div id="repeat-area-occurance-end-time">
+                <div class="form-group">
+                    <label asp-for="Occurance" class="control-label"></label>
+                    <input asp-for="Occurance" class="form-control" min="0" max="300" />
+                    <span asp-validation-for="Occurance" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label class="control-label">Occurance End Time</label>
+                    <input asp-for="OccuranceEndTime" class="form-control" />
+                    <span asp-validation-for="OccuranceEndTime" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div id="error-message" style="color:orangered ; font-size: 20px;">
+                @Html.DisplayTextFor(model => model.errorMessage)
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script>
+    //base on above ides,if user click in dayly/weekly/monthly
+
+    $(document).ready(function () {
+        $('#repeat-area-week-days').hide();
+        $('#repeat-area-occurance-end-time').hide();
+       
+
+        $('#repeat-ddl').change(function(){
+            
+            if (this.value == 'WEEKLY') {
+                $('#repeat-area-week-days').show();
+            } else {
+                $('#repeat-area-week-days').hide();
+            }
+
+            if (this.value == 'WEEKLY' || this.value == 'DAILY') {
+                $('#repeat-area-occurance-end-time').show();
+            } else {
+                $('#repeat-area-occurance-end-time').hide();
+            }
+
+        })
+
+
+        //when occurance change date will change
+
+        var timePicker = document.getElementById("OccuranceEndTime");
+
+        $('#Occurance').change(function(){
+            
+
+            var currentDate = new Date();
+
+            var repeatValue = $('#repeat-ddl')[0].selectedIndex;
+
+            var occurance = repeatValue == 2 ? (Number(this.value) * 7) : (Number(this.value));
+
+            currentDate.setDate(currentDate.getDate() + occurance);
+
+
+           
+            var year = currentDate.getFullYear();
+            var month = String(currentDate.getMonth() + 1).padStart(2, '0');
+            var day = String(currentDate.getDate()).padStart(2, '0');
+            var hours = String(currentDate.getHours()).padStart(2, '0');
+            var minutes = String(currentDate.getMinutes()).padStart(2, '0');
+            var formattedDate = `${year}-${month}-${day}T${hours}:${minutes}`;
+
+            timePicker.value = formattedDate;
+          
+        });
+
+
+        //when date change occurance  will change
+        $('#OccuranceEndTime').change(function () {
+            
+            
+            var currentTime = timePicker.value;
+
+            var currentDate = new Date(currentTime);
+
+            var repeatValue = $('#repeat-ddl')[0].selectedIndex;
+
+            var difference = currentDate - new Date();
+            var daysDifference = Math.floor(difference / (1000 * 60 * 60 * 24));
+
+            var occurance = repeatValue == 2 ? (((Number(daysDifference))+1)/7) : (Number(daysDifference )+1);
+
+            $('#Occurance').val(occurance);
+        });
+        
+    })
+
+</script>

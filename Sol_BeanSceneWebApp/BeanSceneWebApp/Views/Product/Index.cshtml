@@ -1,0 +1,44 @@
+﻿@model IEnumerable<BeanSceneWebApp.Data.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .white-text {
+        color: white;
+    }</style>
+
+
+<table class="table">
+
+    <tbody>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+
+
+                <div class="col-4 mt-5" style="text-align:center">
+                    <img src="~/images/Product/@Url.Content(item.ImageName)" alt="Product Image" width="300" height="300" /> <br>
+
+                    <b>Name:</b> @Html.DisplayFor(modelItem => item.Name) <br>
+                    <b>Description: </b>@Html.DisplayFor(modelItem => item.Description)<br>
+
+                    <b>
+                        Price:
+                    </b> $ @Html.DisplayFor(modelItem => item.Price) <br>
+                    <b>Ingredient:</b> @Html.DisplayFor(modelItem => item.Ingredient)<br>
+                    <b>
+                        Dietary:
+                    </b> @Html.DisplayFor(modelItem => item.Dietary)<br>
+                    <b>
+                        Name:
+                    </b> @Html.DisplayFor(modelItem => item.Category.Name)<br>
+
+                 
+                </div>
+
+            }
+        </div>
+    </tbody>
+</table>
+

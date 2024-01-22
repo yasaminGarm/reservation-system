@@ -1,0 +1,38 @@
+﻿@model BeanSceneWebApp.Areas.Administration.Models.Employee.Index
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@*<h3>Staff member </h3>*@
+
+<div class="col-md-4 mx-auto">
+<a asp-action="Create" class="btn btn primary" style="color:white;font-size:30px;border-block-color:yellow">Register Employee🧑‍🍳</a>
+
+
+<table border="1" width="150%">
+    <thead>
+        <tr style="font-size:20px;padding-top:100px;color:white;padding-bottom:100px">
+            
+            <td > User Name:</td>
+            
+            
+            
+            <td>Administrator</td>
+        
+        
+        
+        </tr>
+
+        </thead>
+        <tbody>
+        @foreach(var u in Model.Users)
+        {
+            <tr><td>@u.Username</td><td>@(u.IsAdmin ?"Yes":"No")</td></tr>
+        }
+        </tbody>
+        
+    
+    
+    </table>
+    </div>

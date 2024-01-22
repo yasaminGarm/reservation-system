@@ -1,0 +1,15 @@
+﻿@model BeanSceneWebApp.Data.Reservation
+
+@{
+    ViewData["Title"] = "CreateReservationConfirmation";
+}
+
+<h4>Reservation Confirmation</h4>
+
+<h3>Thank you!</h3>
+
+
+<h4> You have successfully created a reservation!</h4>
+
+<button onclick="location.href='@Url.Action("Index", "Reservation")'" class="book-a-table-btn scrollto d-none d-lg-flex">OK</button>
+

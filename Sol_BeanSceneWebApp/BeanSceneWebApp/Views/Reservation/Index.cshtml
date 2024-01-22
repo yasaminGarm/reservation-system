@@ -1,0 +1,216 @@
+﻿@model BeanSceneWebApp.Models.Reservation.Index
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    .white-text {
+        color: white;
+    }
+    
+    .dimgray-container {
+        background-color: dimgray;
+        padding: 20px; /* Adjust the padding as needed */
+        border-radius: 5px;
+    }
+</style>
+<div class="dimgray-container">
+    <h2>
+        <a asp-action="Create" class="book-a-table-btn-for-reservation scrollto d-none d-lg-flex" style="font-size: 20px; padding:10px 5px 10px 30px;text-align:center">Make a Reservation📖</a>
+   
+    </h2>
+   
+@if (User.IsInRole("Administration") || User.IsInRole("Employee"))
+{
+        <form asp-controller="Reservation" asp-action="Index" method="get" style="width:400px">
+        <p >
+            <div>
+                Person: <input type="text" asp-for="PersonSearch" class="form-control" />
+            </div>
+            <div>
+                Status: <select asp-for="StatusIdSearch" class="form-control" asp-items="ViewBag.StatusId">
+                    <option value="">All</option>
+                </select>
+            </div>
+              @*  <div>
+                    Date: <input type="date" asp-for="personSearch" class="form-control" />
+                </div>*@
+            <div class="mt-4">
+                <input type="submit" value="Filter" class="btn btn-sm btn-warning"/>
+                    <a asp-controller="Reservation" asp-action="Index" type="submit" name="reset" value="Reset" class="btn btn-sm btn-warning" >Reset</a>
+            </div>
+        </p>
+    </form>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            @if (User.IsInRole("Administration") || User.IsInRole("Employee"))
+            {
+                <th class="white-text">
+                    @Html.DisplayNameFor(model => model.Reservations![0].ReservationTablesId)
+                </th>
+            }
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Reservations![0].Person)
+            </th>
+            @*<th class="white-text">
+                @Html.DisplayNameFor(model => model.Reservations![0].DurationInMinutes)
+            </th>*@
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Reservations![0].NumberOfGuests)
+            </th>
+               <th class="white-text">
+                @Html.DisplayNameFor(model => model.Reservations![0].Origion)
+            </th>
+
+
+
+            @if (User.IsInRole("Administration") || User.IsInRole("Employee"))
+            {
+                 <th class="white-text">
+                    @Html.DisplayNameFor(model => model.Reservations![0].Sitting)
+            </th >
+            }
+         
+             <th class="white-text">
+                 Start Time
+             </th>
+             <th class="white-text">
+                 End Time
+            </th>
+          @*  <th>
+                @Html.DisplayNameFor(model => model.Reservations![0].End)
+            </th>*@
+            @if (User.IsInRole("Administration") || User.IsInRole("Employee"))
+            {
+             <th class="white-text">
+                @Html.DisplayNameFor(model => model.Reservations![0].Status)
+            </th>
+            }
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Reservations)
+        {
+            <tr>
+                @if (User.IsInRole("Administration") || User.IsInRole("Employee"))
+                {
+                    <td class="white-text">
+                        @Html.DisplayFor(modelItem => item.ReservationTablesId)
+                    </td>
+                }
+                <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.Person.FirstName)&nbsp;&nbsp; @Html.DisplayFor(modelItem => item.Person.LastName)
+                </td>
+           
+                <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.NumberOfGuests)
+                </td >
+
+
+                    <td class="white-text">
+                        @Html.DisplayFor(modelItem => item.Origion.Name)
+                    </td>
+
+                @if (User.IsInRole("Administration") || User.IsInRole("Employee"))
+                {
+
+                    <td class="white-text">
+                        @Html.DisplayFor(modelItem => item.Sitting.Name)
+                    </td>
+                }
+                <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.Start)
+                </td>
+
+                    <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.End)
+                </td>
+                @if (User.IsInRole("Administration") || User.IsInRole("Employee"))
+                {
+
+                <td class="white-text">
+                    <span style="color: @(item.Status.Name == "Pending" ? "orange" :
+                                     item.Status.Name == "Confirmed" ? "#00FF00" :
+                                     item.Status.Name == "Seated" ? "blue" :
+                                     item.Status.Name == "Completed" ? "black" :
+                                     "red")">
+                    @Html.DisplayFor(modelItem => item.Status.Name)
+                </span>
+                </td>
+                }
+
+
+
+               
+                <td class="white-text">
+                    @if (User.IsInRole("Administration") || User.IsInRole("Employee"))
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning">Edit</a>
+                        }
+                        
+                        @if (User.IsInRole("Administration") || User.IsInRole("Employee") || User.IsInRole("Member"))
+                        {
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning">Details</a>
+                        }
+                        
+                        @if (User.IsInRole("Administration") || User.IsInRole("Employee"))
+                        {
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning">Delete</a>
+                        }
+                        @if (User.IsInRole("Administration") || User.IsInRole("Employee"))
+                        {
+
+                            @if (item.Status.Name == "Completed" || item.Status.Name == "Canceled")
+                        {
+                           @* <span style="text-decoration: line-through; color: gray;">| Delete |</span>*@
+
+                            <span style="text-decoration: line-through; color: gray;"> Add Tables |</span>
+                            <span style="text-decoration: line-through; color: gray;">Reset Assigned Table</span >
+                        }
+                        else
+                        {
+
+                           @* <a asp-action="Delete" asp-route-id="@item.Id"class="btn btn-sm btn-primary">Delete</a>*@
+
+
+
+
+
+                            @if (item.ReservationTablesId == true)
+                            {
+                                <a asp-action="Tables" asp-route-id="@item.Id" id="addTablesButton_@item.Id" style="color:orangered" class="btn btn-dark">Add Tables</a>
+                                @*<span style="text-decoration: line-through; color: orange;">Add Tables</span>*@
+
+                            }
+
+                            else
+                            {
+                                <a asp-action="Tables" asp-route-id="@item.Id" id="addTablesButton_@item.Id" style="color:green" class="btn btn-dark">Add Tables</a>
+
+                            }
+                            @if (item.ReservationTablesId == true)
+                            {
+                                <a asp-action="CancelAssignedTable" asp-route-id="@item.Id"  class="btn btn-danger">Reset Assigned Table</a>
+                            }
+
+
+                            else if (item.ReservationTablesId == false || item.ReservationTablesId == null)
+                            {
+                                <span style="text-decoration: line-through; color: dimgray;">Reset Assigned Table</span>
+                            }
+                        }
+                    
+                
+                    }
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

@@ -1,0 +1,597 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BeanSceneWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BeanSceneWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\Videos\\Tea.mp4",
+      "PackagePath": "staticwebassets\\Videos\\Tea.mp4"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\Videos\\prown.mp4",
+      "PackagePath": "staticwebassets\\Videos\\prown.mp4"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\css\\login.css",
+      "PackagePath": "staticwebassets\\assets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\FoODAndDrink.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\FoODAndDrink.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\about-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-bg.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\chefs\\chefs-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chefs\\chefs-1.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\chefs\\chefs-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chefs\\chefs-2.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\chefs\\chefs-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chefs\\chefs-3.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\event-birthday.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event-birthday.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\event-custom.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event-custom.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\event-private.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event-private.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\events-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\events-bg.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\gallery\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\gallery\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\gallery\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\gallery\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\gallery\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\gallery\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\gallery\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\gallery\\gallery-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery-8.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\menu\\bread-barrel.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu\\bread-barrel.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\menu\\caesar.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu\\caesar.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\menu\\cake.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu\\cake.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\menu\\greek-salad.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu\\greek-salad.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\menu\\lobster-bisque.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu\\lobster-bisque.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\menu\\lobster-roll.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu\\lobster-roll.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\menu\\mozzarella.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu\\mozzarella.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\menu\\spinach-salad.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu\\spinach-salad.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\menu\\tuscan-grilled.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\menu\\tuscan-grilled.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\photo_steak.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\photo_steak.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\specials-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specials-1.png"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\specials-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specials-2.png"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\specials-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specials-3.png"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\specials-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specials-4.png"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\specials-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\specials-5.png"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\css\\reservation.tables.css",
+      "PackagePath": "staticwebassets\\css\\reservation.tables.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\ChickenAndCocktail.jpg",
+      "PackagePath": "staticwebassets\\images\\ChickenAndCocktail.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\FoodAndDrink.jpg",
+      "PackagePath": "staticwebassets\\images\\FoodAndDrink.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Logo.jpg",
+      "PackagePath": "staticwebassets\\images\\Logo.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\Burger234906175.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\Burger234906175.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\DrinkPurple230013072.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\DrinkPurple230013072.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\IMG_1864235315387.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\IMG_1864235315387.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\PrownFood232613845.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\PrownFood232613845.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\federDrink232320891.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\federDrink232320891.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\kanfe234239677.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\kanfe234239677.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_5817828314386117031_w235808207.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_5817828314386117031_w235808207.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356419_y231702049.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356419_y231702049.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356420_y231430961.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356420_y231430961.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356420_y231849545.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356420_y231849545.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356421_y231502668.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356421_y231502668.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356423_y230942847.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356423_y230942847.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356423_y232912318.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356423_y232912318.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356431_y231940125.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356431_y231940125.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356431_y232545468.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356431_y232545468.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356431_y232726261.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356431_y232726261.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356431_y234306199.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356431_y234306199.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356432_y231010195.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356432_y231010195.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356434_y233841735.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356434_y233841735.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356435_y232427707.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356435_y232427707.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\photo_6109675014346356436_y231308235.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\photo_6109675014346356436_y231308235.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\pipies232211546.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\pipies232211546.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\porsche_911235118115.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\porsche_911235118115.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Product\\porsche_911235239851.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\porsche_911235239851.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\Venue.jpg",
+      "PackagePath": "staticwebassets\\images\\Venue.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\images\\elegant-wedding-reception-room-with-sea-view-through-windows.jpg",
+      "PackagePath": "staticwebassets\\images\\elegant-wedding-reception-room-with-sea-view-through-windows.jpg"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\js\\CharJs.js",
+      "PackagePath": "staticwebassets\\js\\CharJs.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\js\\SittingReport.js",
+      "PackagePath": "staticwebassets\\js\\SittingReport.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\js\\SittingsCalendar.js",
+      "PackagePath": "staticwebassets\\js\\SittingsCalendar.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\js\\StatusReport.js",
+      "PackagePath": "staticwebassets\\js\\StatusReport.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\js\\reservation.js",
+      "PackagePath": "staticwebassets\\js\\reservation.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\js\\reservation.tables.js",
+      "PackagePath": "staticwebassets\\js\\reservation.tables.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\js\\time.js",
+      "PackagePath": "staticwebassets\\js\\time.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Diploma Project Indivisual\\BeanSceneProject\\Sol_BeanSceneWebApp\\BeanSceneWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BeanSceneWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BeanSceneWebApp.props",
+      "PackagePath": "build\\BeanSceneWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BeanSceneWebApp.props",
+      "PackagePath": "buildMultiTargeting\\BeanSceneWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BeanSceneWebApp.props",
+      "PackagePath": "buildTransitive\\BeanSceneWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

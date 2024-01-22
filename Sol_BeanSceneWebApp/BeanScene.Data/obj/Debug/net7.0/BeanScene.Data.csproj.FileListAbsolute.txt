@@ -1,0 +1,17 @@
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\bin\Debug\net7.0\selenium-manager\linux\selenium-manager
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\bin\Debug\net7.0\selenium-manager\macos\selenium-manager
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\bin\Debug\net7.0\selenium-manager\windows\selenium-manager.exe
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\bin\Debug\net7.0\BeanScene.Data.deps.json
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\bin\Debug\net7.0\BeanScene.Data.runtimeconfig.json
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\bin\Debug\net7.0\BeanScene.Data.dll
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\bin\Debug\net7.0\BeanScene.Data.pdb
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\obj\Debug\net7.0\BeanScene.Data.csproj.AssemblyReference.cache
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\obj\Debug\net7.0\BeanScene.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\obj\Debug\net7.0\BeanScene.Data.AssemblyInfoInputs.cache
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\obj\Debug\net7.0\BeanScene.Data.AssemblyInfo.cs
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\obj\Debug\net7.0\BeanScene.Data.csproj.CoreCompileInputs.cache
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\obj\Debug\net7.0\BeanScene.Data.dll
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\obj\Debug\net7.0\refint\BeanScene.Data.dll
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\obj\Debug\net7.0\BeanScene.Data.pdb
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\obj\Debug\net7.0\BeanScene.Data.genruntimeconfig.cache
+C:\Diploma Project Indivisual\BeanSceneProject\Sol_BeanSceneWebApp\BeanScene.Data\obj\Debug\net7.0\ref\BeanScene.Data.dll

@@ -1,0 +1,111 @@
+﻿@model BeanSceneWebApp.Data.Sitting
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h3 style="font-family:Arial, Helvetica, sans-serif;">Edit Sitting</h3>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" id="EditForm">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Capacity" class="control-label"></label>
+                <input asp-for="Capacity" class="form-control" />
+                <span asp-validation-for="Capacity" class="text-danger"></span>
+            </div>
+           @* <div class="form-group">
+                <label asp-for="SittingDate" class="control-label"></label>
+                <input asp-for="SittingDate" class="form-control" />
+                <span asp-validation-for="SittingDate" class="text-danger"></span>
+            </div>*@
+            @Html.Hidden("SittingDate")
+            <div class="form-group">
+                <label asp-for="StartDateTime" class="control-label"></label>
+                <input asp-for="StartDateTime" class="form-control" />
+                <span asp-validation-for="StartDateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDateTime" class="control-label"></label>
+                <input asp-for="EndDateTime" class="form-control" />
+                <span asp-validation-for="EndDateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IncrementDuration" class="control-label"></label>
+                <input asp-for="IncrementDuration" class="form-control" />
+                <span asp-validation-for="IncrementDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ResturantId" class="control-label"></label>
+                <select asp-for="ResturantId" class="form-control" asp-items="ViewBag.ResturantId"></select>
+                <span asp-validation-for="ResturantId" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Closed" /> @Html.DisplayNameFor(model => model.Closed)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="SittingTypeId" class="control-label"></label>
+                <select asp-for="SittingTypeId" class="form-control" asp-items="ViewBag.SittingTypeId"></select>
+                <span asp-validation-for="SittingTypeId" class="text-danger"></span>
+            </div>
+        @*    <div class="form-group">
+                <label asp-for="SittingScheduleId" class="control-label"></label>
+                <select asp-for="SittingScheduleId" class="form-control" asp-items="ViewBag.SittingScheduleId"></select>
+                <span asp-validation-for="SittingScheduleId" class="text-danger"></span>
+            </div>*@
+
+            <div class="form-group form-check">
+
+                Update Entire Series   <input class="form-check-input" asp-for="IsUpdateSerie" />
+
+            </div>
+            <div class="form-group">
+                @*<input type="submit" value="Save" class="btn btn-primary" />*@
+                <input onclick="Confirm()" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<script type="text/javascript">
+    function Confirm() {
+        var editForm = document.getElementById("EditForm");
+        var input = $("<input />");
+        input.attr("type", "hidden").attr("name", "confirmedValue");
+        if (confirm("Would you like to apply changes for all series (ok) or only this one (cancel)?")) {
+            input.val("yes");
+        } else {
+            input.val("no");
+        }
+        editForm.appendChild(input[0]);
+        editForm.submit();
+    }
+</script>
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+        $(function () {
+            alert("@ViewBag.Message")
+        });
+    </script>
+}

@@ -1,0 +1,135 @@
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.csproj.AssemblyReference.cache
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.AssemblyInfoInputs.cache
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.AssemblyInfo.cs
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.csproj.CoreCompileInputs.cache
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\appsettings.Development.json
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\appsettings.json
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Order.API.exe
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Order.API.deps.json
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Order.API.runtimeconfig.json
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Order.API.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Order.API.pdb
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\DnsClient.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\MongoDB.Bson.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\MongoDB.Driver.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\SharpCompress.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Snappier.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\ZstdSharp.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets\msbuild.Order.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets\msbuild.build.Order.API.props
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Order.API.props
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Order.API.props
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\scopedcss\bundle\Order.API.styles.css
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.csproj.CopyComplete
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\refint\Order.API.dll
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.pdb
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.genruntimeconfig.cache
+C:\Diploma Project\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\ref\Order.API.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\appsettings.Development.json
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\appsettings.json
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Order.API.exe
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Order.API.deps.json
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Order.API.runtimeconfig.json
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Order.API.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Order.API.pdb
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\DnsClient.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\MongoDB.Bson.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\MongoDB.Driver.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\SharpCompress.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Snappier.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\ZstdSharp.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.csproj.AssemblyReference.cache
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.AssemblyInfoInputs.cache
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.AssemblyInfo.cs
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.csproj.CoreCompileInputs.cache
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets\msbuild.Order.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets\msbuild.build.Order.API.props
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Order.API.props
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Order.API.props
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\scopedcss\bundle\Order.API.styles.css
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.csproj.CopyComplete
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\refint\Order.API.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.pdb
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\Order.API.genruntimeconfig.cache
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\obj\Debug\net7.0\ref\Order.API.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Azure.Core.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Azure.Identity.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Humanizer.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Diploma Project Indivisual\MobileApp\Ordering.MobileApp\Order.API\Order.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll

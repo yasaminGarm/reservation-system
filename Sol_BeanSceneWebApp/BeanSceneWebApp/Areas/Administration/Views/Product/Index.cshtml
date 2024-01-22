@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BeanSceneWebApp.Data.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+
+    th{
+        color:white;
+    }
+
+    td{
+        color:white;
+    }
+</style>
+<h1></h1>
+
+<h2>
+    <a asp-action="Create" class="btn btn primary" style="color:white;font-size:30px;border-block-color:black;margin-bottom:40px">+🍴Add new item</a>
+</h2>
+<table class="table">
+    
+    <tbody>
+        <div class="row">
+@foreach (var item in Model) {
+
+        
+               <div class="col-4 mt-5" style="text-align:center">
+                    <img src="~/images/Product/@Url.Content(item.ImageName)" alt="Product Image" width="300" height="300" /> <br >
+
+                    <b>Name:</b> @Html.DisplayFor(modelItem => item.Name) <br>
+                    <b>Description: </b>@Html.DisplayFor(modelItem => item.Description)<br>
+
+                        <b>
+                        Price:</b> $ @Html.DisplayFor(modelItem => item.Price) <br>
+                    <b>Ingredient:</b> @Html.DisplayFor(modelItem => item.Ingredient)<br >
+                                <b>
+                        Dietary:</b> @Html.DisplayFor(modelItem => item.Dietary)<br>
+                                    <b>
+                        Name:</b> @Html.DisplayFor(modelItem => item.Category.Name)<br>
+                    
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-warning mr-3"> Edit </a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-warning mr-3">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-warning mr-3">Delete</a>
+               </div>
+               
+}
+        </div>
+    </tbody>
+</table>

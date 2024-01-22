@@ -1,0 +1,11 @@
+﻿namespace BeanSceneWebApp.Controllers.ApiControllers
+{
+    public class ReservationModel
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        //for api and ui  for transfering data
+    }
+}

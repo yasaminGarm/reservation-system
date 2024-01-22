@@ -1,0 +1,39 @@
+﻿.table-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    5 columns gap: 10px;
+    Gap between squares
+}
+
+.table {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+
+
+.selected-table {
+    background-color: grey;
+    color: black;
+}
+
+
+.main {
+    background-color: #3498db;
+}
+
+
+.outside {
+    background-color: #FF0000;
+}
+
+.balcony {
+    background-color: #800080;
+}

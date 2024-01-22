@@ -1,0 +1,192 @@
+﻿@model BeanSceneWebApp.Models.Reservation.AddTable
+@{
+    ViewData["Title"] = "AddTable";
+}
+
+<style>
+
+    body {
+        background-color: black;
+        font-family: "Arial", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: #6C564B;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .container {
+        width: 800px;
+        margin: 0 auto;
+        background-color: #E4D8C6;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .table {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+        .table th {
+            text-align: left;
+            background-color: #D4C0A1;
+            color: #6C564B;
+            padding: 10px;
+        }
+
+        .table td {
+            padding: 10px;
+        }
+
+    .checkbox-label {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+        .checkbox-label input[type="checkbox"] {
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+    .occupied {
+        color: red;
+    }
+
+    .available {
+        color: green;
+    }
+
+    .save-button {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        .save-button input[type="submit"] {
+            background-color: #6C564B;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+            .save-button input[type="submit"]:hover {
+                background-color: #8C7266;
+            }
+</style>
+
+<div class="container">
+    <h1 style="font-family:Arial, Helvetica, sans-serif;">Add Table</h1>
+
+    <div>
+        <form asp-action="SaveTableSelection">
+            <input type="hidden" name="ReservationId" value="@Model.ReservationId" />
+            <input type="hidden" name="SittingId" value="@Model.SittingId" />
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Table</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var r in Model.Tables)
+                    {
+                        <tr>
+                            <td>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="selectedTables" value="@r.Id" @(r.Occupied == 0 ? "disabled" : "") @(r.Occupied == 1 ? "checked" : "")>
+                                    <span class="table-name @(r.Occupied == 0 ? "unavailable" : "")">@r.Name</span>
+                                </label>
+                            </td>
+                            <td>
+                                @if (r.Occupied == 0)
+                                {
+                                    <span class="status occupied">Occupied</span>
+                                }
+                                else
+                                {
+                                    <span class="status available">Available</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="save-button">
+                <input type="submit" value="Save" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@*@model BeanSceneWebApp.Models.Reservation.Tables
+
+
+@{
+    ViewData["Title"] = "AddTable";
+}
+
+<link href="~/css/reservation.tables.css" rel="stylesheet" />
+
+<form asp-action="AssignTableConfirmation" method="post">
+    @foreach (var a in Model.Areas)
+    {
+        <div>
+            <div>@a.Name</div>
+            <div class="table-grid">
+                @foreach (var t in a.Tables)
+                {
+                    <span data-table-id="@t.Id" class="table @(GetTableCssClass(t.Name))">
+                        @t.Name
+                        <input data-table-id="@t.Id" class="area-table" style="cursor:pointer" type="checkbox">
+                    </span>
+                }
+            </div>
+        </div>
+    }
+
+    <input type="hidden" asp-for="ReservationId" />
+
+
+    <input type="hidden" name="tableIds" id="SelectedTableIds" />
+    <div class="form-group">
+        <input type="submit" value="Tables" class="btn btn-primary" id="saveButton" />
+    </div>
+</form>
+
+@functions {
+    string GetTableCssClass(string tableName)
+    {
+        if (tableName.StartsWith("M"))
+        {
+            return "main";
+        }
+        else if (tableName.StartsWith("B"))
+        {
+            return "outside";
+        }
+        else if (tableName.StartsWith("O"))
+        {
+            return "balcony";
+        }
+        else
+        {
+            // Default class for other tables
+            return "table";
+        }
+    }
+}
+
+@section Scripts{
+    <script src="~/js/reservation.tables.js"></script>
+}
+*@

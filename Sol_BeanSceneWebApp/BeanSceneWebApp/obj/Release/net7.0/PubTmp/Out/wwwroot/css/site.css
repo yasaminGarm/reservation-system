@@ -1,0 +1,148 @@
+/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+*/
+#main-content {
+    /* border: 1px solid rgb(189, 189, 189); */
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+.top-menu {
+    background-color: rgb(55, 53, 53);
+}
+
+#top-menu a {
+    color: white;
+}
+
+.navbar-custom {
+    background-color: rgba(187, 185, 185, 0.7);
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+    .navbar-custom .nav-link {
+        color: rgb(255, 255, 255);
+    }
+
+#footer {
+    margin-top: 20px;
+    /* border-top: 1px solid rgb(189, 189, 189); */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content-design {
+    padding: 50px;
+}
+
+.topnav {
+    /* display: flex;
+    /* justify-content: space-between; /* Distribute items equally */
+    /* align-items: center; Vertically align items */
+    /* padding: 20px 0; Add padding for spacing */
+    padding-top: 30px;
+}
+
+.topnav a {
+    color: rgb(255, 107, 2);
+    /* Set your desired color */
+    text-decoration: none;
+    /* Remove underline */
+    padding: 5px 15px;
+    /* Adjust padding as needed */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* .img-responsive {
+			background-image: url("images/Altitude-Restaurant-002.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 400px; /* Adjust the height as needed */
+
+/*.img-responsive {
+    background-image: url("../images/elegant-wedding-reception-room-with-sea-view-through-windows.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;*/
+    /* Adjust the height as needed */
+/*}*/
+
+.btn-transparent {
+    background-color: transparent;
+    color: white;
+    /* Set the color for the text */
+}
+
+
+.btn-bordered {
+    border: 2px solid white;
+    /* Set the border style */
+    padding: 15px 30px;
+    /* Adjust padding as needed */
+}
+
+
+
+#logo-link {
+    display: flex;
+    align-items: center;
+    /* Center align logo and text */
+    margin-left: 400px;
+}
+
+@media (max-width: 767px) {
+    .logo-img {
+        display: none;
+        /* Hide the logo on small screens */
+    }
+}
+
+.logo-img {
+    width: 60px;
+    /* Adjust the logo width */
+    height: 60px;
+    /* Adjust the logo height */
+    border-radius: 50%;
+    /* Make the logo circular */
+    margin-right: 10px;
+    /* Add spacing between logo and text */
+}
+
+
+
+
+
+.find-table-button {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Adjust the color */
+
+    border-color: rgb(255, 60, 0);
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}

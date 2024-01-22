@@ -1,0 +1,73 @@
+﻿@model IEnumerable<BeanSceneWebApp.Data.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .white-text {
+        color: white;
+    }</style>
+
+<h1></h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Description)
+            </th class="white-text">
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Price)
+            </th class="white-text">
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Ingredient)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Dietary)
+            </th>
+            <th class="white-text"> 
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th class="white-text" >
+                @Html.DisplayNameFor(model => model.ImageName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td class="white-text">
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+                <td class="white-text">
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+                <td class="white-text">
+                $@Html.DisplayFor(modelItem => item.Price)
+            </td>
+                <td class="white-text">
+                @Html.DisplayFor(modelItem => item.Ingredient)
+            </td class="white-text">
+            <td class="white-text">
+                @Html.DisplayFor(modelItem => item.Dietary)
+            </td>
+            <td class="white-text">
+                @Html.DisplayFor(modelItem => item.Category.Name)
+            </td>
+            <td>
+                   
+                    <img src="~/images/Product/@Url.Content(item.ImageName)" alt="Product Image" width="100" height="100"/>
+            </td>
+            @*<td>
+               
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Details</a> 
+                    
+            </td>*@
+        </tr>
+}
+    </tbody>
+</table>

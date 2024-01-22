@@ -1,0 +1,170 @@
+﻿@model IEnumerable<BeanSceneWebApp.Data.Sitting>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .white-text {
+        color: white;
+      
+
+    }
+
+    
+    input[type="checkbox"][disabled] {
+
+        color: red;
+        background-color: blue;
+        
+    }
+     
+    
+</style>
+
+
+
+
+
+@*<h3 style="font-family:Arial, Helvetica, sans-serif;">Restuarnt Sitting</h3>
+*@
+<h2>
+    <a asp-action="Create" class="white-text; btn-primary;">Add a new Sitting⏳</a>
+</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Capacity)
+            </th>
+     
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.StartDateTime)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.EndDateTime)
+            </th>
+            <th class ="white-text">
+                @Html.DisplayNameFor(model => model.IncrementDuration)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Resturant)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Closed)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.SittingType)
+            </th>
+
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Repeat)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Notice)
+            </th>
+
+
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Monday)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Tuesday)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Wednesday)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Thursday)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Friday)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Saturday)
+            </th>
+            <th class="white-text">
+                @Html.DisplayNameFor(model => model.Sunday)
+            </th>
+            
+
+        </tr>
+    </thead>
+  <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td class="white-text">
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+                <td class="white-text">
+                @Html.DisplayFor(modelItem => item.Capacity)
+            </td>
+          
+                <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.StartDateTime)
+            </td>
+                <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.EndDateTime)
+            </td>
+                <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.IncrementDuration)
+                </td>
+                <td class="white-text">
+                @Html.DisplayFor(modelItem => item.Resturant.Name)
+            </td>
+                <td class="white-text" >
+                @Html.DisplayFor(modelItem => item.Closed)
+            </td>
+                <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.SittingType.Name)
+            </td>
+
+               <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.Repeat)
+            </td>
+            <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.Notice)
+            </td>
+
+
+            <td class="black-text">
+                    @Html.DisplayFor(modelItem => item.Monday)
+            </td>
+            <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.Tuesday)
+            </td>
+            <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.Wednesday)
+            </td>
+            <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.Thursday)
+            </td>
+            <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.Friday)
+            </td>
+            <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.Saturday)
+            </td>
+            <td class="white-text">
+                    @Html.DisplayFor(modelItem => item.Sunday)
+            </td>
+
+            <td class="white-text">
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    Edit
+                   </a>|
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+

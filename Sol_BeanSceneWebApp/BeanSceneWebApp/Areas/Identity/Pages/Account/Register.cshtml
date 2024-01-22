@@ -1,0 +1,101 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+@*<style>
+      .img_deg {
+        float: right;
+        
+        display: block; /* Make it a block-level element */
+        margin: 0 auto; /* Center horizontally */
+        width: 60%;
+        height:100%;
+        
+        
+    }
+
+      .pos_cen{
+          position:absolute;
+          width:70%;
+          left:15%;
+          top:20%;
+          margin : 10px;
+
+          
+      }
+    </style>*@
+@*
+<h1 style="font-family:Arial, Helvetica, sans-serif; color:white;  ">@ViewData["Title"]</h1>
+*@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+
+      @*  <div class="pos_cen">
+            <img class="img_deg" src="~/assets/img/photo_steak.jpg" alt="Image Alt Text" />
+        </div>*@
+
+        <section>
+          <div class="login-container">
+
+          <form id="registerForm" method="post">
+            <h3 style="font-family:Arial, Helvetica, sans-serif; color:white; margin-top: -50px;">Create a new account.</h3>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email" class="form-label" style="color:black">Email</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+
+
+
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.FirstName" class="form-control" autocomplete="username" aria-required="true"  />
+                <label asp-for="Input.FirstName" class="form-label" style="color:black">FirstName</label>
+                <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.LastName" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.LastName" class="form-label" style="color:black">LastName</label>
+                <span asp-validation-for="Input.LastName" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Phone" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.Phone" class="form-label" style="color:black">Phone</label>
+                <span asp-validation-for="Input.Phone" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password" class="form-label" style="color:black">Password</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.ConfirmPassword" class="form-label" style="color:black">Confirm Password</label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-outline-warning">Register</button>
+
+
+           </form>
+           </div>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

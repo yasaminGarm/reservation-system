@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeanSceneWebApp", "BeanSceneWebApp\BeanSceneWebApp.csproj", "{0A851F11-5250-4A00-94B6-95B40506C42A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeanScene.Data", "BeanScene.Data\BeanScene.Data.csproj", "{88637E3F-57F8-4248-BE8D-CF117D2EB9F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeanScene.Test", "BeanScene.Test\BeanScene.Test.csproj", "{B370B470-4754-44CE-B47B-014D11214446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A851F11-5250-4A00-94B6-95B40506C42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A851F11-5250-4A00-94B6-95B40506C42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A851F11-5250-4A00-94B6-95B40506C42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A851F11-5250-4A00-94B6-95B40506C42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88637E3F-57F8-4248-BE8D-CF117D2EB9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88637E3F-57F8-4248-BE8D-CF117D2EB9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88637E3F-57F8-4248-BE8D-CF117D2EB9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88637E3F-57F8-4248-BE8D-CF117D2EB9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B370B470-4754-44CE-B47B-014D11214446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B370B470-4754-44CE-B47B-014D11214446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B370B470-4754-44CE-B47B-014D11214446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B370B470-4754-44CE-B47B-014D11214446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C644176A-F3FD-4551-9669-D929606D42AF}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/yasamingarmroodi
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BeanSceneWebApp\\BeanSceneWebApp.csproj
+		SccProjectName1 = BeanSceneWebApp
+		SccLocalPath1 = BeanSceneWebApp
+		SccProjectUniqueName2 = BeanScene.Data\\BeanScene.Data.csproj
+		SccProjectName2 = BeanScene.Data
+		SccLocalPath2 = BeanScene.Data
+		SccProjectUniqueName3 = BeanScene.Test\\BeanScene.Test.csproj
+		SccProjectName3 = BeanScene.Test
+		SccLocalPath3 = BeanScene.Test
+	EndGlobalSection
+EndGlobal

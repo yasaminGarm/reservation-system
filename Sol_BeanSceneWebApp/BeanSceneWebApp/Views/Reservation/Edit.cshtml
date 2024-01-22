@@ -1,0 +1,198 @@
+﻿@model BeanSceneWebApp.Models.Reservation.Edit
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+<style>
+    /* Your existing styles */
+
+    .dimgray-container {
+        background-color: dimgray;
+        padding: 20px; /* Adjust the padding as needed */
+        border-radius: 5px;
+    }
+</style>
+
+<div class="dimgray-container">
+    <h4 style="font-family:Arial, Helvetica, sans-serif;">Reservation Update</h4>
+
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+         
+
+
+
+                <div class="form-group">
+                    <label class="control-label">First Name</label>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Member"))
+                    {
+                        <input asp-for="FirstName" class="form-control" readonly="readonly" />
+                    }
+
+                    else
+                    {
+                        <input asp-for="FirstName" class="form-control" />
+                    }
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+
+             
+
+
+
+                <div class="form-group">
+                    <label class="control-label">Last Name"</label>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Member"))
+                    {
+                        <input asp-for="LastName" class="form-control" readonly="readonly" />
+                    }
+
+                    else
+                    {
+                        <input asp-for="LastName" class="form-control" readonly="readonly"/>
+                    }
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+
+
+            
+
+
+
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Member"))
+                    {
+                        <input asp-for="Email" class="form-control" readonly="readonly" />
+                    }
+
+                    else
+                    {
+                        <input asp-for="Email" class="form-control" />
+                    }
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+
+
+               
+
+                <div class="form-group">
+                    <label asp-for="Phone" class="control-label"></label>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Member"))
+                    {
+                        <input asp-for="Phone" class="form-control" readonly="readonly" />
+                    }
+
+                    else
+                    {
+                        <input asp-for="Phone" class="form-control" />
+                    }
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Reservation Status</label>
+                    <select asp-for="ReservationStatusId" class="form-control" asp-items="ViewBag.ReservationStatuses"></select>
+                    <span asp-validation-for="ReservationStatusId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Reservation Origion</label>
+                    <select asp-for="ReservationOriginId" class="form-control" asp-items="ViewBag.ReservationOrigions"></select>
+                    <span asp-validation-for="ReservationOriginId" class="text-danger"></span>
+                </div>
+
+
+          
+
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const durationInput = document.getElementById("durationInput");
+                        const upButton = document.getElementById("upButton");
+
+                        upButton.addEventListener("click", function () {
+                            // Get the current value and convert it to a number
+                            let currentValue = parseInt(durationInput.value) || 0;
+
+                            // Increment the value by 15
+                            currentValue += 15;
+
+                            // Update the input field's value
+                            durationInput.value = currentValue;
+
+                            // You might want to add logic here to ensure the value doesn't exceed the max value (249).
+                        });
+                    });
+                </script>
+
+                <div class="form-group">
+                    <label class="control-label">Number of Guests</label>
+                    <input id="number-of-guest" asp-for="NumberOfGuests" class="form-control" min="1" max="300" />
+                    <span asp-validation-for="NumberOfGuests" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Booking Date</label>
+                    <input asp-for="BookingDate" class="form-control" />
+                    <span asp-validation-for="BookingDate" class="text-danger"></span>
+                </div>
+                @* <div class="form-group">
+                <label asp-for="SittingId" class="control-label"></label>
+                <select asp-for="SittingId" class="form-control" asp-items="Model.Sittings"></select>
+                </div>*@
+
+
+                <div class="form-group">
+                    <label asp-for="SittingId" class="control-label"></label>
+                    <div id="sitting-list">
+                        @*@Html.DropDownListFor(x => x.Sittings, Model.Sittings, "--Select sitting--",
+                        new { @id="sittings-ddl", @class="form-control"})*@
+                    </div>
+                </div>
+
+
+                @* <div class="form-group">
+                <label asp-for="StatusId" class="control-label"></label>
+                <select asp-for="StatusId" class ="form-control" asp-items="ViewBag.StatusId"></select>
+                </div>*@
+
+                @Html.HiddenFor(m=>m.SelectedSittingId)
+                @Html.HiddenFor(m=>m.SelectedStartDate)
+                @Html.HiddenFor(m=>m.SelectedEndDate)
+                @Html.HiddenFor(m=>m.PersonId)
+                @Html.HiddenFor(m=>m.Id)
+
+                <div class="form-group">
+                    <label asp-for="Note" class="control-label"></label>
+                    <input asp-for="Note" class="form-control" />
+                </div>
+
+                <div id="error-message" style="color:red">
+                    @Html.DisplayTextFor(model => model.errorMessage)
+                </div>
+
+                <div class="form-group mt-3">
+                    <input type="submit" value="Save" class="btn btn-warning" />
+                </div>
+            </form>
+        </div>
+   @*     <div class="col-md-6 p-5">
+            <!-- Display the image here -->
+            <img src="~/assets/img/gallery/gallery-1.jpg" height="150%" width="150%" alt="Restuarant Main Hall" class="img-fluid" />
+        </div>*@
+    </div>
+
+    @if (User.IsInRole("Administration") || User.IsInRole("Employee") || User.IsInRole("Member"))
+    {
+        <div>
+            <a asp-action="Index">Back to List</a>
+        </div>
+    }
+</div>

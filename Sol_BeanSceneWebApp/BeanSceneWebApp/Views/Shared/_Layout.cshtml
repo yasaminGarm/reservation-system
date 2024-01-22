@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BeanSceneWebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BeanSceneWebApp.styles.css" asp-append-version="true" />
+
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    
+    <link href="~/assets/css/style.css" rel="stylesheet" />
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/reservation.js"></script>
+    
+    <script src="~/js/time.js"></script>
+
+
+</head>
+<style>
+    /* Your existing styles */
+
+    .dimgray-container {
+        background-color: dimgray;
+        padding: 20px; /* Adjust the padding as needed */
+        border-radius: 5px;
+    }
+</style>
+<body>
+    <header>
+        
+
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+            <h1 class="logo me-auto me-lg-0"><a asp-area="" asp-controller="Home" asp-action="Index">BeanScene</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                   
+
+                    <li><a class="nav-link scrollto" asp-area="" asp-controller="Product" asp-action="Index">Menu</a></li>
+
+                    @if (!User.IsInRole("Administration") && !User.IsInRole("Employee") && !User.IsInRole("Member"))
+                    {
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="Home" asp-action="Privacy">About</a></li>
+                    }
+                    @if (User.IsInRole("Administration"))
+                    {
+                        <li class="dropdown">
+                            <a href="#"><span>Admin Dashboard</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                @*<li><a asp-area="Administration" asp-controller="Home" asp-action="Index">Administration</a></li>*@
+
+                                <li class="dropdown">
+                                    <a href="#"><span>Reports</span> <i class="bi bi-chevron-right"></i></a>
+                                    <ul>
+                                        <li><a asp-area="Administration" asp-controller="SittingReport" asp-action="Index">Sitting Reports </a></li>
+                                        <li><a asp-area="Administration" asp-controller="StatusReport" asp-action="Index">Status Reports </a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a asp-area="Administration" asp-controller="Sitting" asp-action="Index">Sittings</a></li>
+                                <li><a asp-area="Administration" asp-controller="Sitting" asp-action="SittingCalendar">Sittings Calendar</a></li>
+                              
+                                <li><a asp-area="Administration" asp-controller="Employee" asp-action="Index">Employees</a></li>
+                                <li><a asp-area="Reservation" asp-controller="Reservation" asp-action="Index">Reservations</a></li>
+                                <li><a asp-area="Administration" asp-controller="Product" asp-action="Index">Products</a></li>
+
+                            </ul>
+                        </li>
+                    }
+                    @if (User.IsInRole("Employee"))
+                    {
+                        <li><a asp-area="Reservation" asp-controller="Reservation" asp-action="Index">Reservations</a></li>
+
+                    }
+                      @if (User.IsInRole("Member"))
+                    {
+
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="Reservation" asp-action="Index">My Reservation
+
+                        </a></li>
+                    }
+                     
+
+                  
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+                
+            </nav><!-- .navbar -->
+            <a asp-area="" asp-controller="Reservation"
+               asp-action="Create" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table </a>
+            <ul class="nav-link scrollto">
+                @*<li class="nav-item me-4 mt-2">
+                <a class="nav-link active" aria-current="page" href="#">LOG IN</a>
+                </li>*@
+                @*<partial name="_LoginPartial" />*@
+
+                <partial name="_LoginPartial" />
+                
+                
+
+            </ul>
+            <ul id="time-box" style="color:white">
+            </ul>
+        </div>
+    </header>
+    
+        <div class="dimgray-container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    
+
+   @* <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - BeanSceneWebApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>*@
+    
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/assets/js/main.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    @section Scripts {
+        <script type="text/javascript" src="@Url.Content("~/js/reservation.js")"></script>
+    }
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿@model BeanSceneWebApp.Areas.Administration.Models.Employee.Create
+<h3 style="font-family:Arial, Helvetica, sans-serif;">Register an Employee</h3>
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form id="account" method="post">
+               
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Email" class="form-control" autocomplete="username" aria-required="true"/>
+                    <label asp-for="Email" class="form-label" style="color:black">Email</label>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                    <label asp-for="Password" class="form-label" style="color:black">Password</label>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                 <div class="checkbox mb-3">
+                    <label asp-for="AssignAdminRole" class="form-label">
+                        <input class="form-check-input" asp-for="AssignAdminRole" />
+                        Assign Administration Role
+                    </label>
+                </div>
+
+                <div>
+                    <button type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
+                </div>
+               
+            </form>
+        </section>
+    </div>
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
